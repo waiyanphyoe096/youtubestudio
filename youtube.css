@@ -1,0 +1,133 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.Body {
+    width: 1000px;
+    background-color: #C5E3F6;
+}
+
+.topbox {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.boxcontainer {
+    display: flex;
+    justify-content: center;
+    background-color: #c5e3f6;
+}
+
+.coloum {
+    width: 320px;
+    margin: 10px;
+}
+
+.box {
+    border-radius: 3px;
+    background-color: #fcefee;
+    padding: 15px;
+}
+
+.boxtitle {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.thumbnailcontainer {}
+
+.thumbnail {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.performance {
+    margin: 6px 0px;
+}
+
+.op {
+    opacity: 0.6;
+}
+
+.fs {
+    font-size: 13px;
+}
+
+.statcontainer {
+    margin: 15px 0px;
+}
+
+.stat {
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+}
+
+.link {
+    color: #5d13e7;
+    font-size: 17px;
+}
+
+.comment {
+    padding: 10px 0px;
+}
+
+.creator {
+    margin: 10px 0px;
+}
+
+.subscriberCount {
+    font-size: 24px;
+}
+
+.no {
+    color: green;
+}
+
+.line {
+    background-color: lightgray;
+    height: 1px;
+    margin: 15px 0px;
+}
+
+.su {
+    font-size: 15px;
+}
+
+.summabox {
+    margin: 5px 0px 10px 0px;
+}
+
+.summa {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+
+.overflowbox {
+    margin-bottom: 20px;
+}
+
+.overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.go {
+    text-transform: uppercase;
+}
+
+.fas {
+    font-size: 15px;
+    margin-left: 7px;
+}
+
+.red {
+    color: red;
+}
